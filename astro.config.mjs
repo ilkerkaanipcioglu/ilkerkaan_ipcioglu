@@ -13,6 +13,10 @@ export default defineConfig({
 			],
 			sidebar: [
 				{
+					label: 'REFX',
+					autogenerate: { directory: 'refx' },
+				},
+				{
 					label: 'Notlar',
 					autogenerate: { directory: 'notlar' },
 				},
