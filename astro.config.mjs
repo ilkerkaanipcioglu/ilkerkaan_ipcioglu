@@ -8,6 +8,9 @@ export default defineConfig({
 		starlight({
 			title: 'İlker Kaan İpçioğlu Blog',
 
+			customCss: [
+				'./src/styles/global.css',
+			],
 			sidebar: [
 				{
 					label: 'Notlar',
